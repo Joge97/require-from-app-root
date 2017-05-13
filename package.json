@@ -1,0 +1,33 @@
+{
+  "name": "require-from-app-root",
+  "version": "0.0.0",
+  "description": "Requires files from the app root.",
+  "main": "./lib/main.js",
+  "types": "./lib/main.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "rimraf lib && tsc -w",
+    "build": "rimraf lib && tsc",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joge97/require-from-app-root.git"
+  },
+  "keywords": [
+    "require",
+    "app-root",
+    "root"
+  ],
+  "author": "Joge <joge@application-studios.com> (https://application-studios.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Joge97/require-from-app-root/issues"
+  },
+  "homepage": "https://github.com/Joge97/require-from-app-root#readme",
+  "devDependencies": {
+    "rimraf": "^2.6.1",
+    "tslint": "^5.2.0",
+    "typescript": "^2.3.2"
+  }
+}
