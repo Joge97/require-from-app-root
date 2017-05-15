@@ -2,8 +2,8 @@
   "name": "require-from-app-root",
   "version": "0.1.1",
   "description": "Requires files from the app root.",
-  "main": "./lib/main.js",
-  "types": "./lib/main.d.ts",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "rimraf lib && tsc -w",
