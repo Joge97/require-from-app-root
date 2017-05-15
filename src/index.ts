@@ -6,6 +6,6 @@ export function requireFromAppRoot(path: string): any {
     return require(join(get(), path));
 }
 
-export function getRootDirectory(): string {
+export function getAppRoot(): string {
     return get();
 }
