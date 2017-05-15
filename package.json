@@ -1,6 +1,6 @@
 {
   "name": "require-from-app-root",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Requires files from the app root.",
   "main": "./lib/main.js",
   "types": "./lib/main.d.ts",
