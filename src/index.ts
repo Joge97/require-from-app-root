@@ -5,3 +5,7 @@ import {join} from 'path';
 export function requireFromAppRoot(path: string): any {
     return require(join(get(), path));
 }
+
+export function getRootDirectory(): string {
+    return get();
+}
