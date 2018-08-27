@@ -6,7 +6,7 @@
   "baseBranches": [
     "develop"
   ],
-  "rangeStrategy": "auto",
+  "rangeStrategy": "replace",
   "updateLockFiles": true
 }
 
