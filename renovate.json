@@ -1,12 +1,12 @@
 {
   "extends": [
     "config:base",
-    ":semanticCommitScope(Dependencies)"
+    ":semanticCommitScope(dependencies)"
   ],
   "baseBranches": [
     "develop"
   ],
-  "bumpVersion": "patch",
+  "rangeStrategy": "auto",
   "updateLockFiles": true
 }
 
