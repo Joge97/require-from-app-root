@@ -4,9 +4,19 @@
     "config:js-lib",
     ":semanticCommitScope(dependencies)"
   ],
+  "updateLockFiles": true,
   "baseBranches": [
     "develop"
   ],
-  "updateLockFiles": true
+  "packageRules": [
+    {
+      "packageNames": [
+        "@types/node"
+      ],
+      "major": {
+        "enabled": true
+      }
+    }
+  ]
 }
 
